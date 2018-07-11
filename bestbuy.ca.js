@@ -6,7 +6,7 @@ var express = require('express');
 var app = express();
 var path = require('path');
 var ejs = require('ejs');
-
+var dotenv = require('dotenv').config({path: path.join(__dirname, '.env.'+ process.env.NODE_ENV)});
 
 app.set('views', __dirname + '/views');
 app.engine('html', require('ejs').renderFile);

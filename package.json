@@ -1,0 +1,27 @@
+{
+  "name": "bbycaSRE",
+  "version": "0.0.1",
+  "description": "A sample Node.js app",
+  "engines": {
+    "node": "8.11.3"
+  },
+  "main": "bestbuy.ca.js",
+  "scripts": {
+    "start": "node bestbuyca.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omartinezpou/bbycaSRE"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
