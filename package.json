@@ -7,7 +7,7 @@
   },
   "main": "bestbuy.ca.js",
   "scripts": {
-    "start": "node bestbuyca.js"
+    "start": "node bestbuy.ca.js"
   },
   "dependencies": {
     "dotenv": "^6.0.0",
