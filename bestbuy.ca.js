@@ -7,7 +7,6 @@ var app = express();
 var path = require('path');
 var ejs = require('ejs');
 
-
 var dotenv = require('dotenv').config({path: path.join(__dirname, '.env.'+ process.env.NODE_ENV)});
 
 app.set('views', __dirname + '/views');
@@ -16,7 +15,7 @@ app.set('view engine', 'ejs');
 
 var routes = require('./routes/routes.js');
 
-app.set('port', process.env.PORT || 8000);
+app.set('port', process.env.PORT || 9000);
 
 switch (process.env.ENV){
    case 'DEV': 
